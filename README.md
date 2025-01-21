@@ -28,7 +28,7 @@ A Skilled Frontend Web Developer with specialization in React.js Frontend Develo
 
   <div align="left">
 
-   [![My Skills](https://skillicons.dev/icons?i=html,css,js,mongodb,vscode,mysql,postman,react,)](#)
+   [![My Skills](https://skillicons.dev/icons?i=html,css,js,mongodb,vscode,mysql,postman,react,python)](#)
 
   </div>
 
@@ -58,25 +58,12 @@ A Skilled Frontend Web Developer with specialization in React.js Frontend Develo
 
 **My Github Stats:**
 
- <a href="https://github.com/rbhomale17"><img align="center" src="https://github-readme-stats.vercel.app/api?username=rbhomale17&show_icons=true&include_all_commits=true&theme=buefy&hide_border=true" alt="rbhomale17 github stats" /></a>  <a href="https://github.com/rbhomale17"><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=rbhomale17&layout=compact&theme=buefy&hide_border=true" alt="rbhomale17 github stats" /></a>   <a href="https://github.com/rbhomale17"><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=rbhomale17&" alt="rbhomale17 github stats" /></a>  
+ <a href="https://github.com/ayushkandari25"><img align="center" src="https://github-readme-stats.vercel.app/api?username=ayushkandari25&show_icons=true&include_all_commits=true&theme=buefy&hide_border=true" alt="ayushkandari25 github stats" /></a>  <a href="https://github.com/ayushkandari25"><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ayushkandari25&layout=compact&theme=buefy&hide_border=true" alt="ayushkandari25 github stats" /></a>   <a href="https://github.com/ayushkandari25"><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=ayushkandari25&" alt="ayushkandari25 github stats" /></a>  
 
-<!-- <div style="display: grid; grid-template-columns: repeat(2, 500px);">
- <img class="img" height:"120%" src="https://github-readme-stats.vercel.app/api?username=rbhomale17&show_icons=true" />
- <img class="img" height:"150%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=rbhomale17&layout=compact" />
- <!-- --- -->
- <!-- <img class="img" height:"150%" align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=rbhomale17&" alt="Rushikesh_Bhomale" /> -->
- <!-- </div> -->
+ <a href="https://github.com/ayushkandari25"><img src="https://github-profile-trophy.vercel.app/?username=ayushkandari25" alt="Ayush_Kandari" /></a>  
+ <a href="https://github.com/ayushkandari25"><img src="https://github-contributor-stats.vercel.app/api?username=ayushkandari25&limit=5&combine_all_yearly_contributions=true" alt="Ayush_Kandari" /></a>  
 
-<!-- <p align="left"> <img class="img" height:"150%" align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=rbhomale17&" alt="Rushikesh_Bhomale" /></a> </p> -->
-
----
-
- <a href="https://github.com/rbhomale17"><img src="https://github-profile-trophy.vercel.app/?username=rbhomale17" alt="Rushikesh_Bhomale" /></a>  
-  <a href="https://github.com/rbhomale17"><img src="https://github-contributor-stats.vercel.app/api?username=rbhomale17&limit=5&combine_all_yearly_contributions=true" alt="Rushikesh_Bhomale" /></a>  
-
-<a href="https://github.com/rbhomale17"><img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=rbhomale17" alt="Rushikesh_Bhomale" /></a>  
-
-<!-- <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=rbhomale17" alt="Rushikesh_Bhomale" /></a> </p> -->
+<a href="https://github.com/ayushkandari25"><img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=ayushkandari25" alt="Ayush_Kandari" /></a>  
 
 ---
 
