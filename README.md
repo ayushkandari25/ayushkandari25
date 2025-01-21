@@ -21,20 +21,6 @@ A Skilled Frontend Web Developer with specialization in React.js Frontend Develo
 ---
 
 **<i><h3 align="left">Skills Badges:</h3></i>**
- <div>
-      <center>
-           <img src="https://images.credly.com/size/680x680/images/68756311-9319-4eeb-a2b7-76defc8dd8a2/image.png" alt="10. Prepare Data for ML APIs on Google Cloud" width="200" height="200">
-      </center>
-      <center>
-           <img src="https://images.credly.com/size/680x680/images/8ab21779-042f-4616-a6ab-fd0d62648b24/image.png" alt="11. Build a Data Warehouse with BigQuery" width="200" height="200">
-      </center>
-    <!-- <center>
-           <img src="https://images.credly.com/size/680x680/images/68756311-9319-4eeb-a2b7-76defc8dd8a2/image.png" alt="12" width="200" height="200">
-      </center> -->
-      <center>
-           <img src="https://images.credly.com/size/680x680/images/c4acff27-5baa-452f-a6b2-ab875da12dfd/image.png" alt="13" width="200" height="200">
-      </center>
-</div>
 
 ---
 
@@ -42,7 +28,7 @@ A Skilled Frontend Web Developer with specialization in React.js Frontend Develo
 
   <div align="left">
 
-   [![My Skills](https://skillicons.dev/icons?i=html,css,js,nodejs,express,mongodb,github,netlify,vscode,mysql,postman,ts,redis,aws,react,replit,regex,sequelize,git)](#)
+   [![My Skills](https://skillicons.dev/icons?i=html,css,js,mongodb,vscode,mysql,postman,react,)](#)
 
   </div>
 
