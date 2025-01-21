@@ -1,1 +1,1 @@
-Hello Animated Hi, I'm Ayush Kandari
+Hello👋, I'm Ayush Kandari
