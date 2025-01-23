@@ -1,0 +1,281 @@
+body {
+  background-color: #f7f2f2; /* Replace with your desired color */
+}
+
+.projects-section {
+    padding: 4rem 6%;
+    /* background-color: var(--background-color); */
+    color: var(--text-color); /* Dynamic text color */
+    transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition */
+    min-height: 85vh;
+}
+
+/* Title styling */
+.projects-title {
+    text-align: center;
+    font-size: clamp(2rem, 4vw, 3rem);
+    font-weight: 600;
+    margin-bottom: 3rem;
+    color: var(--projects-title-color); /* Dynamic title color */
+}
+
+/* Projects container */
+.projects-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+}
+
+/* Project card styling */
+.project-card {
+    background: var(--card-bg-color); /* Dynamic card background */
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+    overflow: hidden;
+    max-width: 400px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+/* Project image */
+.project-image img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+/* Project content */
+.project-content {
+    padding: 1.5rem;
+    text-align: left;
+}
+
+.title-section h2 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--project-title-color); /* Dynamic title color */
+    margin-bottom: 1rem;
+}
+
+.description-section h3,
+.tech-section h3,
+.feature-section h3 {
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-top: 1.5rem;
+    color: var(--heading-color); /* Dynamic heading color */
+}
+
+.description-section p,
+.tech-section p,
+.feature-section p {
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+/* Buttons */
+.button-group {
+    margin-top: 1.5rem;
+    display: flex;
+    gap: 1rem;
+}
+
+.project-btn {
+    flex: 1;
+    padding: 0.8rem;
+    font-size: 1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.project-btn.github {
+    background-color: #333;
+    color: #fff;
+}
+
+.project-btn.github:hover {
+    background-color: #555;
+    transform: scale(1.05);
+}
+
+.project-btn.visit {
+    background-color: #ff0000;
+    color: #fff;
+}
+
+.project-btn.visit:hover {
+    background-color: #e60000;
+    transform: scale(1.05);
+}
+
+/* GitHub stats section */
+.github-stats-section {
+    margin-top: 4rem;
+    width: 100%;
+    padding: 0 20px;
+}
+
+.github-stats-section h2 {
+    text-align: center;
+    font-size: clamp(1.8rem, 3vw, 2.5rem);
+    font-weight: 600;
+    margin-bottom: 2rem;
+    color: var(--projects-title-color);
+}
+
+.github-stats-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.github-calendar,
+.github-stats-card,
+.github-languages {
+    flex: 1 1 300px;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.github-calendar img,
+.github-stats-card img,
+.github-languages img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 8px;
+    object-fit: contain;
+}
+
+.thin-line {
+    border: none;
+    height: 1px;
+    background: linear-gradient(to right, transparent, var(--highlight-color), transparent);
+    margin: 1rem 8%;
+}
+
+/* CSS Variables for Light and Dark Mode */
+:root {
+    --background-color: #f8f9fa; /* Light background */
+    --text-color: #2d2d2d; /* Dark text */
+    --projects-title-color: #000000; /* Black title */
+    --card-bg-color: #ffffff; /* White card background */
+    --project-title-color: #000000; /* Black project title */
+    --heading-color: #555; /* Subheading color */
+}
+
+body.dark-mode {
+    --background-color: #1a1a1a; /* Dark background */
+    --text-color: #ffffff; /* Light text */
+    --projects-title-color: #ffffff; /* White title */
+    --card-bg-color: #2d2d2d; /* Dark card background */
+    --project-title-color: #ffffff; /* White project title */
+    --heading-color: #aaaaaa; /* Subheading color in dark mode */
+}
+
+/* Responsive design */
+@media (max-width: 1024px) {
+    .github-stats-container {
+        gap: 1.5rem;
+    }
+
+    .github-calendar,
+    .github-stats-card,
+    .github-languages {
+        flex: 1 1 calc(50% - 1.5rem);
+    }
+
+    .projects-section {
+        padding: 3rem 4%;
+    }
+}
+
+@media (max-width: 768px) {
+    .projects-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .project-card {
+        max-width: 90%;
+    }
+
+    .github-stats-section {
+        margin-top: 3rem;
+        padding: 0 15px;
+    }
+
+    .github-stats-container {
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .github-calendar,
+    .github-stats-card,
+    .github-languages {
+        flex: 1 1 100%;
+        max-width: 100%;
+    }
+
+    .github-calendar img,
+    .github-stats-card img,
+    .github-languages img {
+        max-width: 100%;
+    }
+
+    .projects-section {
+        padding: 2rem 3%;
+    }
+}
+
+@media (max-width: 480px) {
+    .project-card {
+        max-width: 95%;
+    }
+
+    .github-stats-section {
+        margin-top: 2rem;
+        padding: 0 10px;
+    }
+
+    .github-stats-container {
+        gap: 1.5rem;
+    }
+
+    .github-stats-section h2 {
+        font-size: 1.5rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .projects-section {
+        padding: 1.5rem 2%;
+    }
+
+    .button-group {
+        flex-direction: column;
+        gap: 0.8rem;
+    }
+
+    .project-btn {
+        width: 100%;
+    }
+}

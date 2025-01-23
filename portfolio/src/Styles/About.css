@@ -1,0 +1,130 @@
+body {
+    background-color: #f7f2f2; /* Replace with your desired color */
+}
+.about-container {
+    max-width: 1200px;
+    margin: 3rem auto;
+    padding: 2rem;
+    background: var(--background);
+    box-shadow: 0 4px 6px var(--shadow-color);
+    border-radius: 8px;
+    transition: transform 0.3s ease, background-color 0.3s ease, color 0.3s ease;
+    /* background-color: lightskyblue; */
+
+}
+
+.about-container:hover {
+    transform: translateY(-5px);
+}
+
+.about-title {
+    margin-top: 50px;
+    color: var(--text-primary);
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 2.5rem;
+    position: relative;
+    padding-bottom: 1rem;
+}
+
+.about-title::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100px;
+    height: 3px;
+    background: linear-gradient(to right, var(--accent), var(--accent-dark));
+}
+
+.about-content {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    gap: 3rem;
+    align-items: start;
+}
+
+.about-left {
+    background: var(--section-bg);
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px var(--shadow-color);
+    transition: background-color 0.3s ease;
+}
+
+.about-left p {
+    margin: 1rem 0;
+    color: var(--text-primary);
+    font-size: 1.1rem;
+    transition: transform 0.2s ease, color 0.3s ease;
+}
+
+.about-left p:hover {
+    transform: translateX(10px);
+}
+
+.about-left strong {
+    color: #fc2121;
+    margin-right: 0.5rem;
+}
+
+.about-right {
+    padding: 1rem;
+}
+
+.about-right p {
+    color: var(--text-secondary);
+    line-height: 1.8;
+    margin-bottom: 1.5rem;
+    font-size: 1.1rem;
+    text-align: justify;
+    transition: color 0.3s ease;
+}
+.thin-line {
+    width: 100%;
+    border: 0;
+    border-top: 1px solid #d9d9d9;  /* Light gray thin line */
+    margin-top: 30px;
+  }
+/* Animation for content loading */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.about-left, .about-right {
+    animation: fadeIn 0.8s ease-out forwards;
+}
+
+.about-left {
+    animation-delay: 0.2s;
+}
+
+.about-right {
+    animation-delay: 0.4s;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .about-content {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+
+    .about-container {
+        margin: 1rem;
+        padding: 1.5rem;
+    }
+
+    .about-title {
+        font-size: 2rem;
+        margin-bottom: 2rem;
+    }
+}
