@@ -1,5 +1,5 @@
 **<h2> Hello👋, I am Ayush Kandari </h2>**   <a href="https://ayush-kandari-25.netlify.app/" target="_blank" rel="noopener noreferrer"><b>My Portfolio</b></a></p>
-         [Link Text]([https://www.example.com](https://ayush-kandari-25.netlify.app/)){:target="_blank"}
+         <a>[Link Text]([https://www.example.com](https://ayush-kandari-25.netlify.app/)){:target="_blank"}</a>
 <p class="empty"><em>   
 A Skilled Frontend Web Developer specialising in React.js Frontend Development and proficiency in HTML, CSS, JavaScript and React.js. Completed a comprehensive 1000+ hour web development course at Masai School with hands-on experience in individual and collaborative projects. Seeking an opportunity to apply the skills and knowledge while continuing to learn and grow in this dynamic field.
 <p>More About Masai School:  <a href="https://masaischool.com/" target="_blank" rel="noopener noreferrer"><b>Click Here</b></a></p>
