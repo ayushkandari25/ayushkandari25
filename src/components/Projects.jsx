@@ -18,8 +18,20 @@ const Projects = () => {
       githubLink:
         "https://github.com/saurabhshambharkar/B41_WEB_006_UI-UX-Unleashed",
       liveLink: "https://warm-cheesecake-8bfc28.netlify.app/",
-    }
-];
+    },
+    {
+      id: 2,
+      title: "Rent Easy",
+      image: "/RentEasy.png",
+      description:
+        "Rent Easy is a tenant-landlord communication platform with features like property listings, rent tracking, real-time messaging, and maintenance request management.",
+      techStack: "HTML | React | Firebase | Tailwind CSS",
+      features:
+        "Property Listings, Tenant-Landlord Messaging, Rent Payment Tracking, Maintenance Requests, Role-based Authentication.",
+      githubLink: "https://github.com/ayushkandari25/RentEasy",
+      liveLink: "https://rent-easy-project.netlify.app/",
+    },
+  ];
 
   return (
     <div id="projects" className="py-16 px-6 dark:bg-gray-900">
