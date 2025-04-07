@@ -3,7 +3,6 @@ const Home = () => {
     const downloadUrl =
       "https://drive.google.com/uc?export=download&id=1fGvEh94CnmhXsZGp9bG4kpmD-mSJMkhK";
 
-    // Open the direct download link in a new tab
     window.open(downloadUrl, "_blank");
   };
 
