@@ -7,7 +7,6 @@ import {
   SiPython,
   SiMysql,
   SiRedux,
-  SiGit,
   SiGithub,
   SiFirebase,
 } from "react-icons/si";
@@ -22,7 +21,6 @@ const skills = [
   { name: "MongoDB", icon: <SiMongodb />, color: "green" },
   { name: "MySQL", icon: <SiMysql />, color: "teal" },
   { name: "Python", icon: <SiPython />, color: "royalblue" },
-  { name: "Git", icon: <SiGit />, color: "red" },
   { name: "GitHub", icon: <SiGithub />, color: "black" },
   { name: "Firebase", icon: <SiFirebase />, color: "orange" },
 ];
