@@ -23,11 +23,15 @@ const Navbar = () => {
   ];
 
   const handleResumeClick = () => {
-    window.open(
-      "https://drive.google.com/file/d/1EjtQhyMgWzIPgSOJUw8Hj422heugAC2b/view?usp=sharing",
-      "_blank"
-    );
+    const fileId = "1EjtQhyMgWzIPgSOJUw8Hj422heugAC2b";
+    window.open(`https://drive.google.com/file/d/${fileId}/preview`, "_blank");
+
+    const link = document.createElement("a");
+    link.href = `https://drive.google.com/uc?export=download&id=${fileId}`;
+    link.download = "Ayush-Kandari-Resume.pdf";
+    link.click();
   };
+
 
   return (
     <nav className="fixed w-full h-20 bg-white dark:bg-gray-900 shadow-lg z-50 text-xl">

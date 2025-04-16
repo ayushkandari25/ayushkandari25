@@ -1,10 +1,13 @@
 const Home = () => {
   const handleDownloadResume = () => {
-    const downloadUrl =
-      "https://drive.google.com/uc?export=download&id=1EjtQhyMgWzIPgSOJUw8Hj422heugAC2b";
-
-    window.open(downloadUrl, "_blank");
+    const fileId = "1EjtQhyMgWzIPgSOJUw8Hj422heugAC2b";
+    window.open(`https://drive.google.com/file/d/${fileId}/preview`, "_blank");
+    const a = document.createElement("a");
+    a.href = `https://drive.google.com/uc?export=download&id=${fileId}`;
+    a.download = "Ayush-Kandari-Resume.pdf";
+    a.click();
   };
+
 
   return (
     <div name="home" className="h-screen flex items-center justify-center">
