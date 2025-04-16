@@ -1,7 +1,7 @@
 const Home = () => {
   const handleDownloadResume = () => {
     const downloadUrl =
-      "https://drive.google.com/uc?export=download&id=1fGvEh94CnmhXsZGp9bG4kpmD-mSJMkhK";
+      "https://drive.google.com/uc?export=download&id=1EjtQhyMgWzIPgSOJUw8Hj422heugAC2b";
 
     window.open(downloadUrl, "_blank");
   };
