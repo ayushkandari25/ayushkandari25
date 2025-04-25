@@ -41,7 +41,7 @@ A Skilled Frontend Web Developer specialising in React.js Frontend Development a
   <a href="https://www.linkedin.com/in/ayushkandari/">
     <img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge"/>
   </a>
-  <a href="https://ayushkandari25.github.io/">
+  <a href="https://ayushkandari25.netlify.app/">
     <img src="https://img.shields.io/badge/portfolio-black?style=for-the-badge&logo=github&logoColor=white" alt="Github Badge"/>
   </a>
   <a href="#">
@@ -58,7 +58,7 @@ A Skilled Frontend Web Developer specialising in React.js Frontend Development a
 
 **My Github Stats:**
 
- <a href="https://github.com/ayushkandari25"><img align="center" src="https://github-readme-stats.vercel.app/api?username=ayushkandari25&show_icons=true&include_all_commits=true&theme=buefy&hide_border=true" alt="ayushkandari25 github stats" /></a>  <a href="https://github.com/ayushkandari25"><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ayushkandari25&layout=compact&theme=buefy&hide_border=true" alt="ayushkandari25 github stats" /></a>   <a href="https://github.com/ayushkandari25"><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=ayushkandari25&" alt="ayushkandari25 github stats" /></a>  
+ <a href="https://github.com/ayushkandari25"><img align="center" src="https://github-readme-stats.vercel.app/api?username=ayushkandari25&show_icons=true&include_all_commits=true&theme=buefy&hide_border=true" alt="ayushkandari25 github stats" /></a>  <a href="https://github.com/ayushkandari25"><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ayushkandari25&layout=compact&theme=buefy&hide_border=true" alt="ayushkandari25 github stats" /></a>   
 
  <a href="https://github.com/ayushkandari25"><img src="https://github-profile-trophy.vercel.app/?username=ayushkandari25" alt="Ayush_Kandari" /></a>  
  <a href="https://github.com/ayushkandari25"><img src="https://github-contributor-stats.vercel.app/api?username=ayushkandari25&limit=5&combine_all_yearly_contributions=true" alt="Ayush_Kandari" /></a>  
