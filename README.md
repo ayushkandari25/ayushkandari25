@@ -38,16 +38,17 @@ A Skilled Frontend Web Developer specialising in React.js Frontend Development a
 **Email:-ayush25.kandari@gmail.com**
 
 <div id="badges">
-  <a href="https://www.linkedin.com/in/ayushkandari/">
+  <a href="https://www.linkedin.com/in/ayushkandari/" target="_blank" rel="noopener noreferrer">
     <img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge"/>
   </a>
-  <a href="https://ayushkandari25.netlify.app/">
-    <img src="https://img.shields.io/badge/portfolio-black?style=for-the-badge&logo=github&logoColor=white" alt="Github Badge"/>
+  <a href="https://ayushkandari25.netlify.app/" target="_blank" rel="noopener noreferrer">
+    <img src="https://img.shields.io/badge/portfolio-black?style=for-the-badge&logo=github&logoColor=white" alt="Portfolio Badge"/>
   </a>
-  <a href="#">
-    <img src="https://komarev.com/ghpvc/?style=for-the-badge&username=rbhomale17" alt="Twitter Badge"/>
+  <a href="#" target="_blank" rel="noopener noreferrer">
+    <img src="https://komarev.com/ghpvc/?style=for-the-badge&username=rbhomale17" alt="Profile Views Badge"/>
   </a>
 </div>
+
 
 <p align="left">
 </p>
