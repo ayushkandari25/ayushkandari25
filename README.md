@@ -28,7 +28,7 @@ A Skilled Frontend Web Developer specialising in React.js Frontend Development a
 
   <div align="left">
 
-   [![My Skills](https://skillicons.dev/icons?i=html,css,js,mongodb,vscode,mysql,postman,react,python)](#)
+   [![My Skills](https://skillicons.dev/icons?i=html,css,js,mongodb,vscode,mysql,postman,react,python,redux)](#)
 
   </div>
 
