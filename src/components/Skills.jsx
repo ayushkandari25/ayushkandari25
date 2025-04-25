@@ -27,7 +27,7 @@ const skills = [
 
 
   return (
-    <section id="skills" className="min-h-screen px-6 py-16 mt-4">
+    <section id="skills" className="min-h-screen px-6 py-20 mt-4">
       <h1 className="text-4xl font-bold text-center mb-12 dark:text-white">
         My Skills
       </h1>
