@@ -1,5 +1,5 @@
-import React from "react";
-import GitHubCalendar from "react-github-calendar";
+import GitHubCalendar from "./GitHubCalendar";
+
 
 const Projects = () => {
   const openInNewTab = (url) => {
@@ -104,13 +104,7 @@ const Projects = () => {
         </h2>
 
         <div className="flex justify-center mb-12">
-          <GitHubCalendar
-            username="ayushkandari25"
-            colorScheme="dark"
-            blockSize={15}
-            blockMargin={5}
-            fontSize={16}
-          />
+          <GitHubCalendar username="ayushkandari25" />
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12">

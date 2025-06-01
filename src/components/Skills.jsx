@@ -9,6 +9,12 @@ import {
   SiRedux,
   SiGithub,
   SiFirebase,
+  SiNodedotjs,
+  SiExpress,
+  SiNpm,
+  SiMongoose,
+  SiPostman,
+  SiGit,
 } from "react-icons/si";
 
 const Skills = () => {
@@ -17,12 +23,18 @@ const skills = [
   { name: "CSS", icon: <FaCss3Alt />, color: "blue" },
   { name: "JavaScript", icon: <SiJavascript />, color: "yellow" },
   { name: "React", icon: <SiReact />, color: "skyblue" },
-  { name: "Redux", icon: <SiRedux />, color: "purple" }, 
+  { name: "Redux", icon: <SiRedux />, color: "purple" },
   { name: "MongoDB", icon: <SiMongodb />, color: "green" },
   { name: "MySQL", icon: <SiMysql />, color: "teal" },
   { name: "Python", icon: <SiPython />, color: "royalblue" },
+  { name: "Git", icon: <SiGit />, color: "#de4c35" },
   { name: "GitHub", icon: <SiGithub />, color: "black" },
   { name: "Firebase", icon: <SiFirebase />, color: "orange" },
+  { name: "NodeJS", icon: <SiNodedotjs />, color: "purple" },
+  { name: "Express", icon: <SiExpress />, color: "green" },
+  { name: "npm", icon: <SiNpm />, color: "maroon" },
+  { name: "Mongoose", icon: <SiMongoose />, color: "green" },
+  { name: "Postman", icon: <SiPostman />, color: "#ff6d38" },
 ];
 
 

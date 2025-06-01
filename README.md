@@ -26,11 +26,12 @@ A Skilled Frontend Web Developer specialising in React.js Frontend Development a
 
 **<i><h3 align="left">Languages and Tools:</h3></i>**
 
-  <div align="left">
+ <div align="left">
 
-   [![My Skills](https://skillicons.dev/icons?i=html,css,js,mongodb,vscode,mysql,postman,react,python,redux)](#)
+  [![My Skills](https://skillicons.dev/icons?i=html,css,js,react,redux,nodejs,express,mongodb,mysql,python,git,github,firebase,postman,npm,vscode)](#)
 
-  </div>
+</div>
+
 
 --- 
 **<h3 align="left">Connect with me:</h3>**
