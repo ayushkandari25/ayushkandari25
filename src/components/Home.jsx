@@ -2,7 +2,7 @@ import { TypeAnimation } from "react-type-animation";
 
 const Home = () => {
   const handleDownloadResume = () => {
-    const fileId = "1uJcSKXezU64Ej9Ny0VscRu3bzK4FepLL";
+    const fileId = "1qe3NopQG7ouItgW74Don3UHtgjGzWBza";
     window.open(`https://drive.google.com/file/d/${fileId}/preview`, "_blank");
     const a = document.createElement("a");
     a.href = `https://drive.google.com/uc?export=download&id=${fileId}`;
