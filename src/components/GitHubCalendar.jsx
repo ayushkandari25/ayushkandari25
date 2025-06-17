@@ -2,7 +2,6 @@ import { useEffect, useState } from "react";
 import { request, gql } from "graphql-request";
 import dayjs from "dayjs";
 
-// Replace with your GitHub token (for private + public contributions)
 const token = import.meta.env.VITE_GITHUB_TOKEN;
 console.log("GitHub Token:", token);
 
@@ -84,7 +83,6 @@ const GitHubCalendar = ({ username }) => {
 
   return (
     <div className="overflow-x-auto">
-      {/* Month labels */}
       <div className="ml-[40px] mb-2 relative" style={{ height: 20 }}>
         {monthStartIndexes.map(
           (weekIndex, i) =>

@@ -23,17 +23,18 @@ const About = () => {
 
         <div className="p-4 animate-fadeIn delay-400">
           <p className="text-lg text-gray-600 dark:text-white leading-relaxed text-justify">
-            Hi, I’m Ayush Kandari, a passionate Front-End Developer dedicated to
-            creating responsive and visually engaging websites. My journey into
-            web development began last year when I discovered coding and was
-            inspired by the creativity behind building digital experiences.
+            Hi, I’m Ayush Kandari — a MERN Stack Developer passionate about
+            building full-stack web applications that are scalable, efficient,
+            and visually engaging. My journey began with a fascination for
+            turning ideas into real-world digital solutions, and since then,
+            I’ve been deeply committed to mastering modern web technologies.
           </p>
           <p className="text-lg text-gray-600 dark:text-white leading-relaxed text-justify mt-6">
-            I specialize in HTML, CSS, JavaScript, React.js, Redux, and modern
-            front-end tools, focusing on clean design and user-friendly
-            interfaces. I’m always eager to learn, explore new technologies, and
-            bring ideas to life through code. Let’s collaborate to create
-            something amazing!
+            I specialize in MongoDB, Express.js, React.js, and Node.js, along
+            with HTML, CSS, JavaScript, Redux, and Tailwind CSS. From responsive
+            frontend design to robust backend APIs, I love creating intuitive
+            user experiences and solving real-world problems through code. I’m
+            always open to learning, collaboration, and exciting new challenges.
           </p>
         </div>
       </div>
