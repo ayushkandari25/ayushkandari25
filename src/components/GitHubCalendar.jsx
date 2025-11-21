@@ -3,7 +3,6 @@ import { request, gql } from "graphql-request";
 import dayjs from "dayjs";
 
 const token = import.meta.env.VITE_GITHUB_TOKEN;
-console.log("GitHub Token:", token);
 
 const fetchContributionData = async (username) => {
   const endpoint = "https://api.github.com/graphql";
