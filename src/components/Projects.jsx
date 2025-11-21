@@ -31,6 +31,18 @@ const Projects = () => {
       githubLink: "https://github.com/ayushkandari25/RentEasy",
       liveLink: "https://rent-easy-project.netlify.app/",
     },
+    {
+      id: 3,
+      title: "BhaiyaG – Educational Management System",
+      image: "/BhaiyaG.png",
+      description:
+        "A fully responsive educational management system with class-wise notes, video content, secure authentication, and admin-level content control.",
+      techStack: "React | Tailwind CSS | Firebase | bcryptjs ",
+      features:
+        "Login/Signup with bcrypt, User Blocking, Admin Panel, Notes Management (Class 7–10), Video Library with YouTube Embeds, Google Drive Notes, Dark/Light Theme, Responsive UI.",
+      githubLink: "https://github.com/Surnny/bhaiyaG",
+      liveLink: "https://bhaiya-g.vercel.app/",
+    },
   ];
 
   return (
