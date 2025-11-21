@@ -1,6 +1,6 @@
-import { useState, useEffect } from 'react';
-import { Link } from 'react-scroll';
-import { FaBars, FaTimes, FaMoon, FaSun } from 'react-icons/fa';
+import { useState, useEffect } from "react";
+import { Link } from "react-scroll";
+import { FaBars, FaTimes, FaMoon, FaSun } from "react-icons/fa";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -8,30 +8,28 @@ const Navbar = () => {
 
   useEffect(() => {
     if (darkMode) {
-      document.documentElement.classList.add('dark');
+      document.documentElement.classList.add("dark");
     } else {
-      document.documentElement.classList.remove('dark');
+      document.documentElement.classList.remove("dark");
     }
   }, [darkMode]);
 
   const links = [
-    { id: 1, link: 'home' },
-    { id: 2, link: 'about' },
-    { id: 3, link: 'skills' },
-    { id: 4, link: 'projects' },
-    { id: 5, link: 'contact' },
+    { id: 1, link: "home" },
+    { id: 2, link: "about" },
+    { id: 3, link: "skills" },
+    { id: 4, link: "projects" },
+    { id: 5, link: "contact" },
   ];
 
   const handleResumeClick = () => {
-    const fileId = "1ZRCt9GjPrEPP0-to3WWcR7UK5hQELnSR";
+    const fileId = "1588KZX8vbL4o2BbvvnORcnXOkClFSzzs";
     window.open(`https://drive.google.com/file/d/${fileId}/preview`, "_blank");
-
     const link = document.createElement("a");
     link.href = `https://drive.google.com/uc?export=download&id=${fileId}`;
     link.download = "Ayush-Kandari-Resume.pdf";
     link.click();
   };
-
 
   return (
     <nav className="fixed w-full h-20 bg-white dark:bg-gray-900 shadow-lg z-50 text-xl">

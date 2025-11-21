@@ -1,16 +1,16 @@
 **<h2> Hello👋, I am Ayush Kandari </h2>**   <a href="https://ayushkandari25.netlify.app/" target="_blank" rel="noopener noreferrer"><b>My Portfolio</b></a></p>
 
 <p class="empty"><em>   
-A Skilled Frontend Web Developer specialising in React.js Frontend Development and proficiency in HTML, CSS, JavaScript and React.js. Completed a comprehensive 1000+ hour web development course at Masai School with hands-on experience in individual and collaborative projects. Seeking an opportunity to apply the skills and knowledge while continuing to learn and grow in this dynamic field.
+A skilled MERN Stack Developer with strong expertise in React.js for frontend development and solid proficiency in HTML, CSS, JavaScript, Node.js, Express, and MongoDB. Completed a comprehensive 1000+ hour full-stack web development program at Masai School, gaining extensive hands-on experience through both individual and collaborative projects. Seeking an opportunity to apply technical skills, contribute to meaningful projects, and continue growing in the dynamic field of full-stack development.
 <p>More About Masai School:  <a href="https://masaischool.com/" target="_blank" rel="noopener noreferrer"><b>Click Here</b></a></p>
 </em></p> 
   
   
 </p> 
  
-- 🌱 I’m a **React.js Frontend Developer** 
+- 🌱 I’m a **MERN Stack Developer** 
 
-- 💬 Ask me about **HTML | CSS | JavaScript | MongoDB | MySQL | React**
+- 💬 Ask me about **HTML | CSS | JavaScript | MongoDB | MySQL | React | Express | Node.js**
 
 - 📫 How to reach me : **[ayush25.kandari@gmail.com](mailto:ayush25.kandari@gmail.com) | [LinkedIn](https://www.linkedin.com/in/ayushkandari/)**
 
